@@ -6,6 +6,14 @@ This is a modern theme developed for [EmulationStation-DE](https://gitlab.com/es
 
 The theme comes with variants for dark and light mode and various aspect ratios. It supports 4:3, 16:9, 16:10, and 21:9.
 
+## Image source
+
+The repo contains source files for the system images located in `art-src`. If you just want to use the theme you can delete this folder to save space.
+
+## How to add a system
+
+Adding a system is very simple, just add a system image in the `art` folder.
+
 ## Screenshots
 
 [System View Dark Mode](./docs/img/system-dark.png)
