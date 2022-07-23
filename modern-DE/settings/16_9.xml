@@ -1,0 +1,58 @@
+<!--
+theme name:		Modern-DE
+version:		3.0
+author:			Sophia Hadash
+email:			s.hadash2@protonmail.com
+license:		creative commons CC-BY-NC-SA
+based on:       Switch Theme by Lilbud
+-->
+
+<theme>
+    <!-- generic styles -->
+    <view name="system, gamelist">
+        <helpsystem name="help">
+            <pos>0.98 0.935</pos>
+            <fontSize>0.030</fontSize>
+            <entrySpacing>0.025</entrySpacing>
+            <iconTextSpacing>0.00625</iconTextSpacing>
+        </helpsystem>
+        <image name="bottomline">
+            <pos>0.5 0.9</pos>
+        </image>
+    </view>
+
+    <!-- system specific styles -->
+    <view name="system">
+        <carousel name="system_carousel">
+            <maxItemCount>4</maxItemCount>
+        </carousel>
+        <image name="arrowblock">
+            <size>0.023 0.047</size>
+        </image>
+        <image name="selection_bottom">
+            <pos>0.5 0.7045</pos>
+            <size>0.2302 0.003</size>
+        </image>
+        <image name="selection_top">
+            <pos>0.5 0.2965</pos>
+            <size>0.2302 0.003</size>
+        </image>
+        <image name="selection_left">
+            <pos>0.385 0.5</pos>
+            <size>0.0016875 0.411</size>
+        </image>
+        <image name="selection_right">
+            <pos>0.6152 0.5</pos>
+            <size>0.0016875 0.411</size>
+        </image>
+    </view>
+
+    <!-- gamelist specific styles -->
+    <view name="gamelist">
+        <badges name="md_badges">
+            <itemsPerLine>4</itemsPerLine>
+            <lines>2</lines>
+            <itemMargin>0.0028125 0.005</itemMargin>
+        </badges>
+    </view>
+</theme>

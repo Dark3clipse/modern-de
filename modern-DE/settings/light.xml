@@ -1,0 +1,117 @@
+<!--
+theme name:		Modern-DE
+version:		4.0
+author:			Sophia Hadash
+email:			s.hadash2@protonmail.com
+license:		creative commons CC-BY-NC-SA
+based on:       Switch Theme by Lilbud
+-->
+
+<theme>
+    <!-- color variables -->
+    <variables>
+        <backgroundColor>d9d9d9</backgroundColor>
+        <backgroundColor2>e2e2e2</backgroundColor2>
+        <mainColor>334ff0</mainColor>
+        <highlightColor>23caca</highlightColor>
+        <secondaryColor>222222</secondaryColor>
+        <tertiaryColor>555555</tertiaryColor>
+        <systemColor>3aa5ab</systemColor>
+        <placeholderColor>ffffff</placeholderColor>
+    </variables>
+
+    <!-- generic styles -->
+    <view name="system, gamelist">
+        <helpsystem name="help">
+            <iconColor>${secondaryColor}</iconColor>
+            <textColor>${secondaryColor}</textColor>
+            <iconColorDimmed>${secondaryColor}</iconColorDimmed>
+            <textColorDimmed>${secondaryColor}</textColorDimmed>
+        </helpsystem>
+        <image name="background">
+            <color>${backgroundColor}</color>
+        </image>
+        <image name="topline, bottomline">
+            <color>${secondaryColor}</color>
+        </image>
+        <rating name="md_rating">
+            <unfilledPath>./../assets/light/star-unfilled.svg</unfilledPath>
+        </rating>
+    </view>
+
+    <!-- system specific styles -->
+    <view name="system">
+        <carousel name="system_carousel">
+            <defaultItem>./../assets/light/box-placeholder.png</defaultItem>
+            <textColor>${secondaryColor}</textColor>
+        </carousel>
+        <text name="game_counter">
+            <color>${secondaryColor}</color>
+        </text>
+        <image name="arrowblock">
+            <color>${systemColor}</color>
+        </image>
+        <text name="system_name_1">
+            <color>${systemColor}</color>
+        </text>
+        <image name="selection_bottom">
+            <color>${highlightColor}</color>
+        </image>
+        <image name="selection_left">
+            <color>${highlightColor}</color>
+        </image>
+        <image name="selection_top">
+            <color>${highlightColor}</color>
+        </image>
+        <image name="selection_right">
+            <color>${highlightColor}</color>
+        </image>
+    </view>
+
+    <!-- gamelist specific styles -->
+    <view name="gamelist">
+        <textlist name="gamelist">
+            <selectedColor>${mainColor}</selectedColor>
+            <primaryColor>${secondaryColor}</primaryColor>
+            <secondaryColor>${tertiaryColor}</secondaryColor>
+            <selectorColor>${mainColor}</selectorColor>
+        </textlist>
+        <text name="system_name_1">
+            <color>${secondaryColor}</color>
+        </text>
+        <gamelistinfo name="gamelistinfo">
+            <color>${secondaryColor}</color>
+        </gamelistinfo>
+
+
+        <image name="md_background">
+            <color>${backgroundColor2}</color>
+        </image>
+        <image name="md_background_grad_top">
+            <path>./../assets/light/gradient.png</path>
+        </image>
+        <image name="md_background_grad_bottom">
+            <path>./../assets/light/gradient.png</path>
+        </image>
+        <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_rating">
+            <color>${tertiaryColor}</color>
+        </text>
+        <datetime name="md_releasedate">
+            <color>${secondaryColor}</color>
+        </datetime>
+        <text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+            <color>${secondaryColor}</color>
+        </text>
+        <badges name="md_badges">
+            <customBadgeIcon badge="favorite">./../assets/light/badges/favorite.svg</customBadgeIcon>
+            <customBadgeIcon badge="completed">./../assets/light/badges/completed.svg</customBadgeIcon>
+            <customBadgeIcon badge="kidgame">./../assets/light/badges/kidgame.svg</customBadgeIcon>
+            <customBadgeIcon badge="broken">./../assets/light/badges/broken.svg</customBadgeIcon>
+            <customBadgeIcon badge="altemulator">./../assets/light/badges/altemulator.svg</customBadgeIcon>
+            <customBadgeIcon badge="controller">./../assets/light/badges/controller.svg</customBadgeIcon>
+        </badges>
+    </view>
+
+    <!-- carousel feature -->
+
+</theme>
