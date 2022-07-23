@@ -16,7 +16,7 @@ Adding a system is very simple, just add a system image in the `art` folder.
 
 ## Screenshots
 
-[System View Dark Mode](docs/img/system-dark.png)
-[Gamelist View Dark Mode](docs/img/gamelist-dark.png)
-[System View Light Mode](docs/img/system-light.png)
-[Gamelist View Light Mode](docs/img/gamelist-light.png)
+![System View Dark Mode](docs/img/system-dark.png)
+![Gamelist View Dark Mode](docs/img/gamelist-dark.png)
+![System View Light Mode](docs/img/system-light.png)
+![Gamelist View Light Mode](docs/img/gamelist-light.png)
