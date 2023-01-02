@@ -107,6 +107,7 @@ based on:       Switch Theme by Lilbud
             <customBadgeIcon badge="completed">./../assets/light/badges/completed.svg</customBadgeIcon>
             <customBadgeIcon badge="kidgame">./../assets/light/badges/kidgame.svg</customBadgeIcon>
             <customBadgeIcon badge="broken">./../assets/light/badges/broken.svg</customBadgeIcon>
+            <customBadgeIcon badge="installed">./../assets/light/badges/installed.svg</customBadgeIcon>
             <customBadgeIcon badge="altemulator">./../assets/light/badges/altemulator.svg</customBadgeIcon>
             <customBadgeIcon badge="controller">./../assets/light/badges/controller.svg</customBadgeIcon>
         </badges>
